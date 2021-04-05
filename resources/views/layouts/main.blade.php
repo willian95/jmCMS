@@ -142,9 +142,16 @@ License: You must have a valid license purchased only from themeforest(the above
 							<ul class="menu-nav">
 
 								<li class="menu-item" aria-haspopup="true">
-									<a href="#" class="menu-link">
+									<a href="{{ url('/vacancies') }}" class="menu-link">
 										<i class="menu-icon flaticon2-shopping-cart-1"></i>
 										<span class="menu-text">Vacantes</span>
+									</a>
+								</li>
+
+								<li class="menu-item" aria-haspopup="true">
+									<a href="{{ url('/resources') }}" class="menu-link">
+										<i class="menu-icon flaticon2-shopping-cart-1"></i>
+										<span class="menu-text">Recursos</span>
 									</a>
 								</li>
 
