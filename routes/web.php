@@ -7,6 +7,7 @@ use App\Http\Controllers\VacancyController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\ResourcesController;
 use App\Http\Controllers\FileController;
+use App\Http\Controllers\ApplianceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,3 +51,6 @@ Route::get("resources/fetch/{page}", [ResourcesController::class, "fetch"]);
 Route::post("resources/delete", [ResourcesController::class, "delete"]);
 
 Route::post("/upload/file", [FileController::class, "upload"]);
+
+Route::get("appliances", [ApplianceController::class, "index"]);
+Route::get("appliances/fetch/{page}", [ApplianceController::class, "fetch"]);

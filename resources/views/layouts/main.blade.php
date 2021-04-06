@@ -155,6 +155,13 @@ License: You must have a valid license purchased only from themeforest(the above
 									</a>
 								</li>
 
+								<li class="menu-item" aria-haspopup="true">
+									<a href="{{ url('/appliances') }}" class="menu-link">
+										<i class="menu-icon flaticon2-shopping-cart-1"></i>
+										<span class="menu-text">Propuestas</span>
+									</a>
+								</li>
+
 								
 							</ul>
 							<!--end::Menu Nav -->

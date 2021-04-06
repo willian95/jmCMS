@@ -17,4 +17,10 @@ class Vacancy extends Model
 
     }
 
+    public function appliances(){
+        
+        return $this->hasMany(Appliance::class, "vacancy_id", "id");
+        
+    }
+
 }
