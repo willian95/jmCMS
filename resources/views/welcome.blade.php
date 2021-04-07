@@ -5,7 +5,7 @@
 
         <div class="row">
             <div class="login100-more mask col-md-6"
-                style="background-image: url('images/laliberty.jpg');">
+                style="background-image: url('https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
 
 
                <!---- <p>Bienvenido a Aidacaceres CMS</p>--->
