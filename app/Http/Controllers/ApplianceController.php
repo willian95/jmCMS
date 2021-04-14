@@ -21,7 +21,7 @@ class ApplianceController extends Controller
             $dataAmount = 20;
             $skip = ($page - 1) * $dataAmount;
 
-            $appliances = Appliance::skip($skip)->take(20)->join('vacancies', 'appliances.vacancy_id', '=', 'vacancies.id')->orderBy("id", "desc")->get();
+            $appliances = Appliance::skip($skip)->take(20)->join('vacancies', 'appliances.vacancy_id', '=', 'vacancies.id')->orderBy("appliances.id", "desc")->get();
             $appliancesCount = Appliance::join('vacancies', 'appliances.vacancy_id', '=', 'vacancies.id')->orderBy("id", "desc")->count();
 
             return response()->json(["success" => true, "appliances" => $appliances, "appliancesCount" => $appliancesCount, "dataAmount" => $dataAmount]);
